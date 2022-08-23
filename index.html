@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stark</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <link href="./img/slogo.webp" rel="icon" type="img/webp"/>
+
+    <!--BS css1 js2-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--fontawesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--custom css-->
+    <link href="./css/stark.css" rel="stylesheet" type="text/css"/>
+    <body>
+        
+<!--START HOME-->
+<header id="home">
+
+<!--Start nav-->
+<nav class="container-fluid navbar navbar-expand-lg navbar-dark fixed-top py-3">
+
+    <a href="index.html" class="navbar-brand fs-2 fw-bold ms-3">STARK</a>
+
+    <div class="navbar-toggler" data-bs-target="#nav" data-bs-toggle="collapse" style="cursor:pointer;">
+        <div class="lines"></div>
+        <div class="lines"></div>
+        <div class="lines"></div>
+    </div>
+    
+    <div id="nav" class="navbar-collapse collapse justify-content-end">
+        <ul class="navbar-nav fs-5 fw-bold text-uppercase">
+            <li class="nav-item mx-3"><a href="#home" class="nav-link active">Home</a></li>
+            <li class="nav-item mx-3"><a href="#carsandacess" class="nav-link">Cars And Acessories</a></li>
+            <li class="nav-item mx-3"><a href="#services" class="nav-link">Services</a></li>
+            <li class="nav-item mx-3"><a href="#about" class="nav-link">About Us</a></li>
+            <li class="nav-item mx-3"><a href="#contact" class="nav-link">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>
+<!--Start nav-->
+
+<!--Start Banner-->
+<div class="hcarousel">
+  <div class="b-1 text-white bann-imgs active">
+    <div class="pg-1">
+        <p class="fs-5 fw-bold">Brand New</p>
+        <h1 class="fs-1 fw-bold">Ferraria</h1>
+        <span class="fs-5 d-block">Discover all our brand new Ferrari ready stocks for immediate registration.</span>
+        <a href="#" class="btn text-white text-uppercase mt-3 exps">Explore</a>
+    </div>
+  </div> 
+
+  <div class="b-2 text-white bann-imgs" dat-filter="two">
+    <div class="pg-2">
+        <p class="fs-5 fw-bold">The New</p>
+        <h1 class="fs-1 fw-bold">Rolls-Royce</h1>
+        <span class="fs-5 d-block">Discover all our brand new Ferrari ready stocks for immediate registrationEverlasting expression of the exceptional.</span>
+        <a href="#" class="btn text-white text-uppercase mt-3 exps">Explore</a>
+    </div>
+</div>
+
+<div class="b-3 text-white bann-imgs" dat-filter="three">
+    <div class="pg-3">
+        <p class="fs-5 fw-bold">Brand New</p>
+        <h1 class="fs-1 fw-bold">Ferraria</h1>
+        <span class="fs-5 d-block">Discover all our brand new Ferrari ready stocks for immediate registration.</span>
+        <a href="#" class="btn text-white text-uppercase mt-3 exps">Explore</a>
+    </div>
+</div> 
+
+<div class="b-4 text-white bann-imgs" >
+    <div class="pg-4">
+        <p class="fs-5 fw-bold">The New</p>
+        <h1 class="fs-1 fw-bold">Rolls-Royce</h1>
+        <span class="fs-5 d-block">Discover all our brand new Ferrari ready stocks for immediate registrationEverlasting expression of the exceptional.</span>
+        <a href="#" class="btn text-white text-uppercase mt-3 exps">Explore</a>
+    </div>
+</div> 
+
+
+<div class="circle-cons">
+    <div class=""><a href="#" class="cir-links active"  data-filter="one"></a></div>
+    <div class=""><a href="#" class="cir-links"  data-filter="two"></a></div>
+    <div class=""><a href="#" class="cir-links"  data-filter="three"></a></div>
+    <div class=""><a href="#" class="cir-links"  data-filter="four"></a></div>
+</div>
+<!--End Banner-->
+</header>
+
+<!--END HOME-->
+
+
+<!--START CARS AND ACESSORIES-->
+<section id="carsandacess" class="container pt-2">
+
+<!--Start Header-->
+<div class="text-center">
+    <h4 class="mb-3 cars-heads">CARS AND ACESSORIES</h4>
+
+    <div class="text-center mt-3 btn-lines ">
+        <button type="button" class="ca-btns click-cars active">CARS</button>
+        <button type="button" class="ca-btns click-access">ACESSORIES</button>
+    </div>
+</div>
+<!--End Header-->
+
+<!--Start Cars-->
+<div id="cars" class="mt-3 pt-3 cars">
+
+    <div class="row">
+        
+        <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-dark text-decoration-none cars-links">
+            <p class="text-lead">Audi</p>
+            <p class="fw-bold">A6 Saloon TFSI e</p>
+            <img src="./img/cars/A6 Saloon TFSI e.png" class="img-thumbnail img-fluid"/>
+            <img src="./img/cars/A6 Saloon TFSI ehover.png" class="img-thumbnail img-fluid d-none"/>
+            <button type="button" class="btn btn-dark mt-3 car-specs" data-bs-toggle="modal" data-bs-target="#specifications">
+            Specifications</button>
+        </a>
+
+        <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-dark text-decoration-none cars-links">
+            <p class="text-lead">Audi</p>
+            <p class="fw-bold">e-Tron GT</p>
+            <img src="./img/cars/e-Tron GT.png" class="img-thumbnail img-fluid"/>
+            <img src="./img/cars/e-Tron GThover.png" class="img-thumbnail img-fluid d-none"/>
+            <button type="button" class="btn btn-dark mt-3 car-specs" data-bs-toggle="modal" data-bs-target="#specifications">Specifications</button>
+        </a>
+
+        <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-dark text-decoration-none cars-links">
+            <p class="text-lead">Audi</p>
+            <p class="fw-bold">RS 3 Sedan</p>
+            <img src="./img/cars/RS 3 Sedan.png" class="img-thumbnail img-fluid"/>
+            <img src="./img/cars/RS 3 Sedanhover.png" class="img-thumbnail img-fluid d-none"/>
+            <button type="button" class="btn btn-dark mt-3 car-specs" data-bs-toggle="modal" data-bs-target="#specifications">Specifications</button>
+        </a>
+
+        <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-dark text-decoration-none cars-links">
+            <p class="text-lead">Audi</p>
+            <p class="fw-bold">RS 6 Avant</p>
+            <img src="./img/cars/RS 6 Avant.png" class="img-thumbnail img-fluid"/>
+            <img src="./img/cars/RS 6 Avanthover.png" class="img-thumbnail img-fluid d-none"/>
+            <button type="button" class="btn btn-dark mt-3 car-specs" data-bs-toggle="modal" data-bs-target="#specifications">Specifications</button>
+        </a>
+
+        <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-dark text-decoration-none cars-links">
+            <p class="text-lead">Bentley</p>
+            <p class="fw-bold">Bentayga</p>
+            <img src="./img/cars/Bentayga V8.png" class="img-thumbnail img-fluid"/>
+            <img src="./img/cars/Bentayga V8hover.png" class="img-thumbnail img-fluid d-none"/>
+            <button type="button" class="btn btn-dark mt-3 car-specs" data-bs-toggle="modal" data-bs-target="#specifications">Specifications</button>
+        </a>
+
+        <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-dark text-decoration-none cars-links">
+            <p class="text-lead">Bentley</p>
+            <p class="fw-bold">Continental GT</p>
+            <img src="./img/cars/Continental GT V8.png" class="img-thumbnail img-fluid"/>
+            <img src="./img/cars/Continental GT V8hover.png" class="img-thumbnail img-fluid d-none"/>
+            <button type="button" class="btn btn-dark mt-3 car-specs" data-bs-toggle="modal" data-bs-target="#specifications">Specifications</button>
+        </a>
+
+        <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-dark text-decoration-none cars-links">
+            <p class="text-lead">Bentley</p>
+            <p class="fw-bold">Flying Spur</p>
+            <img src="./img/cars/Flying Spur.png" class="img-thumbnail img-fluid"/>
+            <img src="./img/cars/Flying Spurhover.png" class="img-thumbnail img-fluid d-none"/>
+            <button type="button" class="btn btn-dark mt-3 car-specs" data-bs-toggle="modal" data-bs-target="#specifications">Specifications</button>
+        </a>
+
+        <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-dark text-decoration-none cars-links">
+            <p class="text-lead">Chevrolet</p>
+            <p class="fw-bold">Corvette</p>
+            <img src="./img/cars/Corvette.png" class="img-thumbnail img-fluid"/>
+            <img src="./img/cars/Corvettehover.png" class="img-thumbnail img-fluid d-none"/>
+            <button type="button" class="btn btn-dark mt-3 car-specs" data-bs-toggle="modal" data-bs-target="#specifications">Specifications</button>
+        </a>
+    </div>
+
+</div>
+<!--End Cars-->
+
+<!--Start Acessories-->
+<div id="con-access" class="d-none mt-3 pt-3 con-access">
+
+<div class="row">
+
+    <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-decoration-none text-dark mb-sm-5 acess-links">
+        <p class=" fw-bold text-muted">Steering Wheel</p>
+        <img src="./img/acessories/steeringwheel.jpg" class="img-thumbnail img-fluid"/>
+        
+        <div class="py-3">
+            <span>Price $ <span class="out-prices">500</span></span>
+            <button type="button" class="btn btn-dark orders"
+            data-bs-toggle="modal" data-bs-target="#purchase">Order Now</button>
+        </div>
+    </a>
+
+    <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-decoration-none text-dark mb-sm-5 acess-links">
+        <p class="fw-bold text-muted">Turbine Wheel</p>
+        <img src="./img/acessories/teslamodelx22.jpg" class="img-thumbnail img-fluid"/>
+        
+        <div class="py-3">
+            <span>Price $ <span class="out-prices">6000</span></span>
+            <button type="button" class="btn btn-dark orders"
+            data-bs-toggle="modal" data-bs-target="#purchase">Order Now</button>
+        </div>
+    </a>
+
+    <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-decoration-none text-dark mb-sm-5 acess-links">
+        <p class="fw-bold text-muted">Wall Connector - 24 ft</p>
+        <img src="./img/acessories/wall-connector.jpg" class="img-thumbnail img-fluid"/>
+        
+        <div class="py-3">
+            <span>Price $ <span class="out-prices">500</span></span>
+            <button type="button" class="btn btn-dark orders"
+            data-bs-toggle="modal" data-bs-target="#purchase">Order Now</button>
+        </div>
+    </a>
+
+    <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-decoration-none text-dark mb-sm-5 acess-links">
+        <p class="fw-bold text-muted"> Hitch Rack</p>
+        <img src="./img/acessories/Tesla Model X,Y Hitch Rack.jpg" class="img-thumbnail img-fluid"/>
+        
+        <div class="py-3">
+            <span>Price $ <span class="out-prices">540</span></span>
+            <button type="button" class="btn btn-dark orders"
+            data-bs-toggle="modal" data-bs-target="#purchase">Order Now</button>
+        </div>
+    </a>
+
+    <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-decoration-none text-dark mb-sm-5 acess-links">
+        <p class="fw-bold text-muted">Roof Pack</p>
+        <img src="./img/acessories/roofpack.jpg" class="img-thumbnail img-fluid"/>
+        
+        <div class="py-3">
+            <span>Price $ <span class="out-prices">500</span></span>
+            <button type="button" class="btn btn-dark orders"
+            data-bs-toggle="modal" data-bs-target="#purchase">Order Now</button>
+        </div>
+    </a>
+
+    <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-decoration-none text-dark mb-sm-5 acess-links">
+        <p class="fw-bold text-muted">Phone Dock</p>
+        <img src="./img/acessories/xsphonedock.jpg" class="img-thumbnail img-fluid"/>
+        
+        <div class="py-3">
+            <span>Price $ <span class="out-prices">25</span></span>
+            <button type="button" class="btn btn-dark orders"
+            data-bs-toggle="modal" data-bs-target="#purchase">Order Now</button>
+        </div>
+    </a>
+
+    <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-decoration-none text-dark mb-sm-5 acess-links">
+        <p class="fw-bold text-muted">Keycard</p>
+        <img src="./img/acessories/keycard.jpg" class="img-thumbnail img-fluid"/>
+        
+        <div class="py-3">
+            <span>Price $ <span class="out-prices">35</span></span>
+            <button type="button" class="btn btn-dark orders"
+            data-bs-toggle="modal" data-bs-target="#purchase">Order Now</button>
+        </div>
+    </a>
+
+    <a href="#" class="col-lg-3 col-md-4 fs-5 text-center text-decoration-none text-dark mb-sm-5 acess-links">
+        <p class="fw-bold text-muted">USB Drive (128GB)</p>
+        <img src="./img/acessories/usb.jpg" class="img-thumbnail img-fluid"/>
+        
+        <div class="py-3">
+            <span>Price $ <span class="out-prices">45</span></span>
+            <button type="button" class="btn btn-dark orders"
+            data-bs-toggle="modal" data-bs-target="#purchase">Order Now</button>
+        </div>
+    </a>
+</div>
+</div>
+<!--End Acessories-->
+
+    <!--Start cars modal area-->
+    <div id="specifications" class="modal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 id="car-md-title" class="modal-title mx-3">Audi6 Tesela barnyar</h4>
+                        <button class="btn btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="in-imgs col-md-6 text-center">
+                                <h4 class="text-lead">Interior Design</h4>
+                                <img src="img/interior/audi-a6-e-chairs.jpg" id="car-it-img1" width="350px" class="py-2"/>
+                                <img src="img/interior/audi-a6-e-driver.jpg" id="car-it-img2" width="350px" class="py-2"/>
+                                <img src="img/interior/audi-a6-e.jpg" id="car-it-img3" width="350px" class="py-2"/>
+                            </div>
+                            <div class="col-md-6">
+                                <ul>
+                                    <li class="fs-6 py-2">Leather-wrapped multifunction sports steering wheel with shift paddles</li>
+                                    <li class="fs-6 py-2">Standard seats with Twin Leather</li>
+                                    <li class="fs-6 py-2">4-way electric lumbar support</li>
+                                    <li class="fs-6 py-2">Front centre armrest</li>
+                                    <li class="fs-6 py-2">Heated front seats</li>
+                                    <li class="fs-6 py-2">Cloth headlining</li>
+                                    <li class="fs-6 py-2">Front and rear floor mats</li>
+                                    <li class="fs-6 py-2">LED Interior Ambient Lighting Pack</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="d-grid col-md-6 mx-auto py-4">
+                        <button class="btn btn-danger">Continue</button>
+                        </div>
+                    </div>
+             
+            </div>
+        </div>
+    <!--End modal area-->
+
+    </div>
+    <!--End cars modal-->
+
+<!--Start Accessories Modal Arera-->
+<section id="purchase" class="modal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 id="purchase-title" class="modal-title">Steering Wheel</h4>
+                <button id="btn-close" class="btn btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-5 text-center">
+                        <img class="access-md-imgs" width="200px" />
+                    </div>
+                    <div class="col-7">
+                        <h2 class="text-muted fs-5">Steering Wheel</h2>
+                        <p class="tex-muted fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Quisquam nobis, incidunt perferendis repudiandae, rerum
+                        rem aliquid autem debitis accusamus soluta, ipsam sapiente!
+                        Deserunt cumque voluptate fugit quaerat, laboriosam beatae soluta!</p>
+                        
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-5"></div>
+                    <div class="col-lg-7 justify-content-end">
+                        <div class="row py-4">
+                            <div class="col-5">
+                                <p><a href="#" class="mx-3 ch-vals decreases disabled"><i class="fas fa-minus"></i></a>
+                                    <span class="fs-5 fw-bold counts"> </span><a href="#" class="mx-3 ch-vals increases"><i class="fas fa-plus"></i></a>
+                                </p>
+                            </div>
+        
+                            <div class="col-7">
+                               <div class="row justify-content-between">
+                                   <p class="col-7 fs-5 fw-bold text-dark">Price $ <span class="prices"></span></p>
+        
+                                <div class="col-5"><button type="button" class="btn btn-dark btn-sm">Purchase</button></div>
+        
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Accessories Modal Area-->
+
+</section>
+<!--END CARS AND ACESSORIES-->
+
+
+<!--START SERVICES-->
+<section id="services" class="bg-dark pt-5 pb-3">
+    <div class="container">
+        <div class="text-center">
+            <h4 class="service-heads text-light">Full Range Of Services</h4>
+    
+            <div id="serv-carousel" class="carousel slide  d-none d-md-block" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#serv-carousel" data-bs-slide-to="0" class="circle-indi active"></button>
+                    <button type="button" data-bs-target="#serv-carousel" data-bs-slide-to="1" class="circle-indi"></button>
+                </div>
+                
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                        <div class="row mt-3">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                                    <i class="fas fa-compact-disc serv-icon mb-4"></i>
+                                    <h4>Wheel Works</h4>
+                                    <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                                    <i class="fas fa-paint-roller serv-icon mb-4"></i>
+                                    <h4>Painting Works</h4>
+                                    <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                                    <i class="fas fa-snowflake serv-icon mb-4"></i>
+                                    <h4>Air Conditioner</h4>
+                                    <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                                    <i class="fas fa-tint serv-icon mb-4"></i>
+                                    <h4>Water Service</h4>
+                                    <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy</p>
+                                </div>
+                            </div>
+                        </div>
+ 
+                    </div>
+
+                    <div class="carousel-item">
+
+                        <div class="row mt-3">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                                    <i class="fas fa-compact-disc serv-icon mb-4"></i>
+                                    <h4>Wheel Works</h4>
+                                    <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                                    <i class="fas fa-paint-roller serv-icon mb-4"></i>
+                                    <h4>Painting Works</h4>
+                                    <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                                    <i class="fas fa-snowflake serv-icon mb-4"></i>
+                                    <h4>Air Conditioner</h4>
+                                    <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy</p>
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                                    <i class="fas fa-tint serv-icon mb-4"></i>
+                                    <h4>Water Service</h4>
+                                    <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                                    and typesetting industry. Lorem Ipsum has been the
+                                    industry's standard dummy</p>
+                                </div>
+                            </div>
+                        </div>
+ 
+                    </div>
+                </div>
+
+            </div>
+
+
+        <!-- For Mobile -->
+        <div id="servmb-carousel" class="carousel slide  d-md-none" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#servmb-carousel" data-bs-slide-to="0" class="circle-indi active"></button>
+                <button type="button" data-bs-target="#servmb-carousel" data-bs-slide-to="1" class="circle-indi"></button>
+                <button type="button" data-bs-target="#servmb-carousel" data-bs-slide-to="2" class="circle-indi"></button>
+                <button type="button" data-bs-target="#servmb-carousel" data-bs-slide-to="3" class="circle-indi"></button>
+                <button type="button" data-bs-target="#servmb-carousel" data-bs-slide-to="4" class="circle-indi"></button>
+                <button type="button" data-bs-target="#servmb-carousel" data-bs-slide-to="5" class="circle-indi"></button>
+                <button type="button" data-bs-target="#servmb-carousel" data-bs-slide-to="6" class="circle-indi"></button>
+                <button type="button" data-bs-target="#servmb-carousel" data-bs-slide-to="7" class="circle-indi"></button>
+            </div>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                        <i class="fas fa-compact-disc serv-icon mb-4"></i>
+                        <h4>Wheel Works</h4>
+                        <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy</p>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                        <i class="fas fa-paint-roller serv-icon mb-4"></i>
+                        <h4>Painting Works</h4>
+                        <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy</p>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+                    <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                        <i class="fas fa-snowflake serv-icon mb-4"></i>
+                        <h4>Air Conditioner</h4>
+                        <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                        <i class="fas fa-tint serv-icon mb-4"></i>
+                        <h4>Water Service</h4>
+                        <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+
+                    <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                        <i class="fas fa-compact-disc serv-icon mb-4"></i>
+                        <h4>Wheel Works</h4>
+                        <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy</p>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+
+                    <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                        <i class="fas fa-paint-roller serv-icon mb-4"></i>
+                        <h4>Painting Works</h4>
+                        <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy</p>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+                    <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                        <i class="fas fa-snowflake serv-icon mb-4"></i>
+                        <h4>Air Conditioner</h4>
+                        <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="card text-white serv-card pt-5 pb-4 mb-5">
+                        <i class="fas fa-tint serv-icon mb-4"></i>
+                        <h4>Water Service</h4>
+                        <p class="serv-text">Lorem Ipsum is simply dummy text of the printing
+                        and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy</p>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+    </div>
+    </div>
+</section>
+<!--END SERVICES-->
+
+
+<!--START ABOUT US-->
+<section id="about" class="pt-3">
+    <div class="container">
+        <h2 class="text-center">About Us</h2>
+        <div class="underlines"></div>
+         <div class="row mt-5">
+             <div class="col-md-6 my-auto">
+                 <img src="img/aboutimg.jpg" class="img-fluid" alt="aboutbg"/>
+             </div>
+             <div class="col-md-6 mt-sm-4 mt-md-none">
+                 <h4>Welcome To <span class="text-danger">Stark Car</span></h4>
+                 <p>Lorem Ipsum is simply dummy text of the printing and
+                 typesetting industry. Lorem Ipsum has been the industry's
+                 standard dummy text ever since the 1500s, when an unknown
+                 printer took a galley of type and scrambled it to make.</p>
+     
+                 <p>electronic typesetting, remaining essentially unchanged.
+                 It was popularised in the 1960s with the release of
+                 Letraset sheets containing Lorem Ipsum passages, and more
+                 recently with desktop publishing software like Aldus
+                 PageMaker popularised in the 1960s with the release of
+                 Letraset sheets containing Lorem Ipsum passages, and more
+                 recently with desktop publishing software like Aldus
+                 PageMaker popularised in the 1960s with the release of
+                 Letraset sheets containing Lorem Ipsum passages, and more
+                 recently with desktop publishing software like Aldus
+                 PageMaker</p>
+             </div>
+         </div>
+    </div>
+
+
+<div class="about-con text-center mt-4 pt-3">
+        <h2>What Are You <span class="text-danger">Looking For</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+
+        <div class="container">
+            <div class="row my-5 ">
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card text-center about-card">
+                        <i class="fas fa-shield-alt about-icon"></i>
+                        <h5 class="my-4 text-danger">Highly Secured</h5>
+                        <p class="text-muted align-self-center mb-5" width="90%">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tincidunt.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card text-center about-card">
+                        <i class="fas fa-hands-helping about-icon"></i>
+                        <h5 class="my-4 text-danger">Trusted Agents</h5>
+                        <p class="text-muted align-self-center mb-5" width="90%">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tincidunt.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card text-center about-card">
+                        <i class="fas fa-dollar-sign about-icon"></i>
+                        <h5 class="my-4 text-danger">Get an Offer</h5>
+                        <p class="text-muted align-self-center mb-5" width="90%">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tincidunt.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card text-center about-card">
+                        <i class="fas fa-headset about-icon"></i>
+                        <h5 class="my-4 text-danger">Free Support</h5>
+                        <p class="text-muted align-self-center mb-5" width="90%">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tincidunt.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END ABOUT US -->
+ 
+
+<!-- START EXPERIENCE -->
+<section class="experience">
+    <div class="container ">
+        <div class="row justify-content-between">
+            <div class="col-md-5 text-white mb-3">
+                <h2>More Than 10 Years
+                <span class="text-danger">Of <br/> Experience</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+            </div>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-5 increase-box text-danger mx-2 mb-3 px-2">
+                        <div class="increase-icon me-3"><i class="fas fa-comment-dots"></i></div>
+                        <div>
+                            <h3 class="increase-number"></h3>
+                            <p class="text-light">Dealer Reviews</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5 increase-box text-danger mx-2 mb-3 px-2">
+                        <div class="increase-icon me-3"><i class="fas fa-car"></i></div>
+                        <div>
+                            <h3 class="increase-number"></h3>
+                            <p class="text-light">Total Cars</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-md-5 increase-box text-danger mx-2 mb-3 px-2">
+                        <div class="increase-icon me-3"><i class="fas fa-award"></i></div>
+                        <div>
+                            <h3 class="increase-number"></h3>
+                            <p class="text-light">Awards Winning</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5 increase-box text-danger mx-2 mb-3 px-2">
+                        <div class="increase-icon me-3"><i class="fas fa-user"></i></div>
+                        <div>
+                            <h3 class="increase-number"></h3>
+                            <p class="text-light">Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END EXPERIENCE -->
+
+
+<!--START Contact Us-->
+<section id="contact" class="contact">
+    <div class="container text-center con-reg">
+        <h3>Contact Us</h3>
+        <div class="underlines my-2"></div>
+
+        <form action="" method="" class="col-6 mx-auto">
+
+            <input type="text" name="name" id="name" class="form-control rounded-0 mt-3" 
+            placeholder="Enter Your Name"/>
+            <input type="email" name="email" id="email" class="form-control rounded-0 mt-4" 
+            placeholder="Enter Your Email"/>
+            <input type="number" name="phone" id="phone" class="form-control rounded-0 mt-4" 
+            placeholder="Enter Your Ph-Number"/>
+
+            <div class="d-grid mt-4">
+                <button type="button" class="btn register">Register</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center mt-3">
+                    <h5 class="text-danger">Visit Us</h5>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white my-1 py-0 foot-link"><i class="fas fa-angle-double-right mx-2"></i><span>Home</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white my-1 py-0 foot-link"><i class="fas fa-angle-double-right mx-2"></i><span>Car And Acessories</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white my-1 py-0 foot-link"><i class="fas fa-angle-double-right mx-2"></i><span>About</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white my-1 py-0 foot-link"><i class="fas fa-angle-double-right mx-2"></i><span>Services</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white my-1 py-0 foot-link"><i class="fas fa-angle-double-right mx-2"></i><span>Contact Us</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center mt-3">
+                    <h5 class="text-danger">NEED HELP?</h5>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white my-1 py-0 foot-link"><i class="fas fa-angle-double-right mx-2"></i><span>Customer Service</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white my-1 py-0 foot-link"><i class="fas fa-angle-double-right mx-2"></i><span>Online Chat</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white my-1 py-0 foot-link"><i class="fas fa-angle-double-right mx-2"></i><span>Support</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white my-1 py-0 foot-link"><i class="fas fa-angle-double-right mx-2"></i><span>info@tesla.com</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white my-1 py-0">
+                                <span class="foot-icon mx-1"><i class="fab fa-viber"></i></span>
+                                <span class="foot-icon"><i class="fas fa-envelope"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center mt-3">
+                    <h5 class="text-danger">Infomation</h5>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white my-1 py-0 foot-link"><i class="fas fa-angle-double-right mx-2"></i><span>Purchase</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white my-1 py-0 foot-link"><i class="fas fa-angle-double-right mx-2"></i><span>Payemnt</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white my-1 py-0 foot-link"><i class="fas fa-angle-double-right mx-2"></i><span>Shipping</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white my-1 py-0 foot-link"><i class="fas fa-angle-double-right mx-2"></i><span>Return</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center mt-3">
+                    <h5 class="text-danger">SUBSCRIBE FOR UPDATES</h5>
+                    <p class="text-start foot-text">Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry. Lorem Ipsum has been the 
+                    industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book.</p>
+                    <div class="input-group">
+                        <input type="text" name="subscribe" class="form-control"
+                        placeholder="Enter Your Email"/>
+                        <button class="btn btn-danger">Subscribe</button>
+                    </div>
+                    <span class="foot-icon"><i class="fab fa-twitter"></i></span>
+                    <span class="foot-icon"><i class="fab fa-facebook-f"></i></span>
+                    <span class="foot-icon"><i class="fab fa-instagram"></i></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</section>
+<!--END Contact Us-->
+
+
+<!--START PROGRESS CIRCLE-->
+<a href="#home" class="progress d-none">
+    <div class="progress-bar">100</div>
+</a>
+<!--END PROGRESS CIRCLE-->
+
+        <!--BS css1 js2-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+        <!--jquery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+
+        <!--custom js-->
+        <script src="./js/stark.js" type="text/javascript"></script>
+    </body>
+</html>

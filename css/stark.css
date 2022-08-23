@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Source+Sans+Pro:wght@300&display=swap');
+
+:root{
+    --primary-color:#fcf5f5;
+    --secondary-color:#521b02;
+}
+
+
+/*START HOME*/
+
+/*Start Navbar*/
+.navbar-brand,.nav-link.active{
+    color:#f00;
+    text-shadow: 5px 5px 5px #f00;
+}
+
+nav{
+    font-family: 'Amiri', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    background:rgba(0,0,0,0.3);
+}
+
+.navbar-bold{
+    background:rgba(0,0,0,0.8);
+}
+
+@media(max-width:991px){
+    nav{
+        background:rgba(0,0,0,1);
+    }
+}
+.lines{
+    width:20px;
+    height:3px;
+    background-color: #fff;
+    border-radius: 5px;
+
+    margin:5px;
+
+    transition:all .3s;
+}
+
+.cross:first-of-type{
+    transform: rotate(-45deg) translate(-5px,5px);
+}
+
+.cross:nth-of-type(2){
+    opacity:0;
+}
+
+.cross:last-of-type{
+    transform: rotate(45deg) translate(-6px,-6px);
+}
+/*End Navbar*/
+
+/*Start Banner*/
+.hcarousel{
+    position:relative;
+}
+
+.b-1,.b-2,.b-3,.b-4{
+    height: 100vh;
+    background-image: url(../img/bgferraria.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display:none;
+
+    position:relative;
+
+    z-index:1;
+}
+
+.b-2{
+  background-image: url(../img/bgrolls-royce.jpeg);  
+}
+
+.b-3{
+    background-image: url(../img/bgporsche.jpeg);  
+}
+
+.b-4{
+    background-image: url(../img/bgharier.jpeg);  
+}
+
+.b-1.active,.b-2.active,.b-3.active,.b-4.active{
+    display:block;
+}
+
+.pg-1,.pg-2,.pg-3,.pg-4{  
+    position: absolute;
+    left: 7%;
+    top:17%;
+}
+
+.exps{
+    background-color: red;
+}
+
+
+.circle-cons{
+    position: absolute;
+    top:35%;
+    right:5%;
+
+    z-index: 2;
+}
+
+.cir-links{
+    display:block;
+
+    width:17px;
+    height:17px;
+    background: rgba(230, 225, 225,0.5);
+    border:1px solid #5c5b5b;
+    border-radius:100%;
+
+    margin-top: 15px;
+}
+
+.cir-links.active{
+    background-color: rgba(224, 18, 18,0.7);
+}
+/*End Banner*/
+
+/*END HOME*/
+
+/* START CARS AND ACESSORIES */
+
+/* Start Header */
+.cars-heads,.service-heads{
+
+    display:inline-block;
+
+    position:relative;
+
+    padding:10px 20px;
+}
+
+.cars-heads::before,.cars-heads::after,.service-heads::after,.service-heads::before{
+    content: '';
+    width: 25px;
+    height: 25px;
+
+    position: absolute;
+}
+
+.cars-heads::before{
+border-top: 3px solid #000;
+border-left: 3px solid #000;
+
+top:0;
+left:0px;
+}
+
+.cars-heads::after{
+    border-bottom: 3px solid #000;
+    border-right: 3px solid #000;
+
+    right:0;
+    bottom:0;   
+ }
+
+.btn-lines{
+    display:inline-block;
+    width: 100%;
+    height:10px;
+    border-bottom: 2px solid #000;
+
+    display:flex;
+    justify-content:start;
+    align-items: center;
+}
+
+.ca-btns{
+    font-size:20px;
+    font-weight: bold;
+    padding:10px 15px; 
+}
+
+.ca-btns:first-child{
+    margin-left: 100px;
+}
+
+.ca-btns:hover{
+    background:#d1c7c7;
+}
+
+.ca-btns.active{
+    background:#000;
+    color:#fff;
+}
+/* End Header */
+
+/* Start Cars */
+.cars-links,.acess-links{
+    display: inline-block;
+    margin:30px 0px;
+
+    transition:all .3s;
+}
+
+.cars-links:hover,.acess-links:hover{
+    box-shadow: 2px 0px 4px #bfbdbd;
+
+    transform:translateY(-5px);
+}
+
+.btn:not(.btn-close):active{
+    transform: scale(0.97);
+}
+
+/*start modal*/
+.in-imgs{
+    height:330px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+/*end modal*/
+
+/* End Cars */
+
+
+/* Start Acessories */
+
+/*start modal*/
+.ch-vals{
+    text-decoration: none;
+    background:#000;
+    color:#fff;
+    padding:4px 7px;
+    border-radius:5px;
+}
+
+.ch-vals.disabled{
+    background:#7a7a7a;
+    color:currentColor;
+
+    pointer-events: none;
+}
+
+.ch-vals:hover{
+    background:rgba(0,0,0,0.8);
+    color:#fff;
+}
+
+.ch-vals:active{
+padding:3.5px 6.5px;
+}
+
+.btn:active{
+box-shadow:none !important;
+
+}
+/*end modal*/
+
+/* End Acessories */
+
+/* END CARS AND ACESSORIES */
+
+
+/* START SERVICES */
+/*carandacess section in service-heads parents*/
+.service-heads::before{
+    border-top: 3px solid #f00;
+    border-left: 3px solid #f00;
+    
+    top:0;
+    left:0px;
+    }
+    
+    .service-heads::after{
+        border-bottom: 3px solid #f00;
+        border-right: 3px solid #f00;
+    
+        right:0;
+        bottom:0;   
+     }
+
+.serv-card,.serv-icon,.serv-text{
+    transition: all .3s;
+}
+
+.serv-card{
+    background: #2e2e2e;
+    border: 1px solid #686869;
+
+    cursor: pointer;
+}
+
+.serv-card:hover{
+    background:#f00;
+
+    transform: translateY(-10px);
+    box-shadow: 1px 0px 2px #8c8c8c;
+}
+
+.serv-card:hover .serv-icon{
+    color:#fff;
+}
+
+.serv-card:hover .serv-text{
+    color: #fff;
+}
+
+.serv-text{
+    width: 90%;
+    align-self: center;
+    font-size: 14px;
+    color: #8c8c8c;
+
+    margin-top: 5px;
+}
+.serv-icon{
+    font-size: 40px;
+    color:#f00;
+}
+
+.circle-indi{
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50%;  
+}
+
+.circle-indi.active{
+    background: #f00;
+    border:0;
+    margin-top: 10px;
+}
+
+/* END SERVICES */
+
+
+/* START ABOUT US */
+.about-con{
+    background: #f7f7f7;
+   
+}
+
+.about-card{
+    box-shadow: 5px 2px 5px #d1cfcf;
+
+    cursor: pointer;
+
+    transition: all .3s;
+}
+
+.about-card:hover{
+    opacity: .8;
+
+    transform: translateY(-5px);
+}
+.about-icon{
+    font-size: 30px;
+    color:#f00;
+
+    margin-top: 40px;
+}
+/* END ABOUT US */
+
+
+/*START EXPERIENCE*/
+.experience{
+    background-image: url(../img/increasebg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*top leftRight bottom*/
+    padding:100px 0 80px;
+}
+
+.increase-box{
+    background: rgba(0,0,0,0.5);
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    transition: all 1s;
+}
+
+.increase-box:hover{
+    transform: scale(1.1);
+}
+.increase-icon{
+    font-size: 43px;
+}
+/*END EXPERIENCE*/
+
+/* START Contact Us */
+.contact{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(../img/contactbanner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+}
+
+.underlines{
+    width: 120px;
+    height:3px;
+    background:#f00;
+    margin: auto;
+}
+
+form .form-control{
+    border:0;
+    background: transparent;
+    border-bottom: 2px solid #fff;
+
+    transition: all .3s;
+}
+
+form .form-control:focus{
+    background: transparent;
+    border-bottom: 2px solid #f00;
+    box-shadow: none;
+    color:#fff;
+}
+
+form .form-control::placeholder{
+    color:#fff;
+}
+
+.register{
+    color:#fff;
+    border:1px solid #e1306C;
+    font-size: 17px;
+    letter-spacing: 2px;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.register:hover::after{
+    color:#fff;
+
+    left:0;
+}
+
+.register::after{
+    content:'Register';
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(50deg,#E1306C, #FD1D1D,#F56040);
+
+    display: grid;
+    place-items: center;
+
+    position:absolute;
+    top:0;
+    left:-100%;
+
+    transition: all .5s;
+}
+
+.con-reg{
+    border-bottom: 2px solid #e1306C;
+    padding-bottom: 40px;
+}
+
+/*Start Footer*/
+.foot-link:hover span{
+    color:#f00 !important;
+}
+
+.foot-link i{
+    color: #f00;
+    display: none;
+
+    transition: all  1s ease;
+}
+
+.foot-link:hover i{
+    display: inline-block;
+    margin-right: 5px;
+}
+.foot-text{
+    font-size: 14px;
+}
+
+.foot-icon{
+    width: 40px;
+    height:40px;
+    background:#f00;  
+    border: 1px solid #f00;
+    border-radius: 50%;
+    line-height: 40px;
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    cursor: pointer;
+}
+
+/*End Footer*/
+/* END Contact Us */
+
+/* START PROGRESS CIRCLE */
+ .progress{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    text-decoration: none;
+
+    box-shadow:0 0 4px #eee;
+
+    position:fixed;
+    right:20px;
+    bottom: 20px;
+
+    display: grid;
+    place-items: center;
+    z-index: 2;
+
+    cursor: pointer;
+ }
+
+ .progress-bar{
+    width: calc(100% - 10px);
+    height:calc(100% - 10px);
+    background:#000;
+    border-radius: 50%;
+    font-size: 17px;
+
+    display: grid;
+    place-items: center;
+ }
+/*END PROGRESS CIRCLE */
